@@ -34,3 +34,6 @@ src/main/test - test files
 src/main/resources - other resources
 src/main/config - application configurations
 target - location of compiled package
+
+HOW TO EXECUTE/RUN JAR application using mvn
+mvn compile exec:java -Dexec.mainClass="com.cohort10.sys.App" -Dexec.cleanUpDemoThreads=false
