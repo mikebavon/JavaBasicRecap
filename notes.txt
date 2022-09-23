@@ -1,0 +1,36 @@
+Maven: - project management tool
+
+1. Bootstrap applications
+2. Generate source code
+3. Management dependencies
+3. Compile the application
+4. Package application (.jar, .war, .ear)
+5. Deploy application - e.g deploy application to a web application server - wildfly
+
+Advantage
+	-Easy to management application
+	-Easy to build application
+	-Easy to maintain
+	-Easy to upgrade
+	-Enforcement standards of development, reduce complexity
+
+
+Maven repository
+Location of where maven can check jar that are required dependency
+ Three types of mavens Repositories
+ 1. Local Repository .m2
+ 2. Central Repository
+ 3. Remote Repository 
+
+
+How to generate application using maven command
+mvn archetype:generate -DgroupId=com.corhort10.sys -DartifactId=ApplicationName -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=true
+
+mvn application Structure
+
+pom.xml - project object model - tells maven how management, deploy, package, test, document application - team in project can also be include in pom.xml
+src/main/java - location of java file
+src/main/test - test files
+src/main/resources - other resources
+src/main/config - application configurations
+target - location of compiled package
