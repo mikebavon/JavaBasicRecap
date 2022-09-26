@@ -37,3 +37,71 @@ target - location of compiled package
 
 HOW TO EXECUTE/RUN JAR application using mvn
 mvn compile exec:java -Dexec.mainClass="com.cohort10.sys.App" -Dexec.cleanUpDemoThreads=false
+
+==================================================== JAVA BASIC RECAP ==========================
+Type of applications
+    1. Standalone application - executable, can be run on their on without using another application (Client)
+    2. Web Application - Requires server-client model... client example is a browser (client), server that servers the application...
+     (Advance with enterprise application)
+    3. Mobile application - running on mobile devices
+
+Programming languages classification
+    1. Unstructured ---no function or method, cannot re use code...
+    2. Structured - group code into function...c language, able re use code in specified in functions
+    3. Object oriented - code group on objects, objects contain properties, behaviours/action/activities e.g java
+
+Java Platforms
+    1. JAVA SE - Standard Edition
+    2. JAVA EE - Enterprise Edition- ---- our class
+    3. JAVA ME - Micro Edition ----for embedded application..like mobile phones etc
+
+***************** JVM **********************
+JVM architecture.....
+
+
+***** java basics ***
+what is class? what is object?
+
+Plan - class
+House - Object
+
+one plan building many house...
+
+======================== aspects of programming ===============
+Variable == memory location, that value can change or not
+    -instance variable.
+    -static variable.
+    -local variables within a method.
+Datatype = int, float, long double...
+    -primitive & non-primitive
+
+Access modifiers
+    -Default - can be accessed within the same package
+    -Public - can be accessed every where
+    -private - can be accessed within the class
+    -protected - package
+
+//===operators=====
+    1. Logical operators
+    2. Arithmetic operators
+    3. Relational operators
+    4. Assignment operators  =, +=,
+    5. bitwise operators
+    6. Unary operators ++,--
+    7. ternary expression?something:something else
+
+
+    8 & 4
+
+    0000 1000  & 0000 0100 = 0000 0000
+
+///=== principles of object======
+encapsulation
+inheritance
+polymorphism
+abstraction - using abstract class, interfaces
+
+
+
+
+
