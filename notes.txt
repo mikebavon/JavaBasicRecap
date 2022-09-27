@@ -90,16 +90,29 @@ Access modifiers
     6. Unary operators ++,--
     7. ternary expression?something:something else
 
-
     8 & 4
 
     0000 1000  & 0000 0100 = 0000 0000
 
-///=== principles of object======
+///=== principles of object ======
 encapsulation
 inheritance
 polymorphism
 abstraction - using abstract class, interfaces
+
+================= JEE Topics ===================
+1. Introduction & Overview - SOLID PRINCIPLES
+2. Servlet
+3. JSP (EL JSTL E.T.C), JSF, FACELETS
+4. Resource Creation
+5. Context Dependency Injection
+6. Enterprise Java Beans (Ejb)
+7. JPA - Java Persistence APIs
+8. Webservices - Restful(JAX-RS), then SOAP(JAX-WS)
+9. JMS - RabbitMq
+10. Java Security
+
+
 
 
 
